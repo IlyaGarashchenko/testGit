@@ -20,7 +20,7 @@ def print_table(matrix):
             write += c + ' | '
         print(write)
         print("-" * size)
-
+        
 def get_empty_matrix(size_x, size_y, value):
     """
         Gets size_x and size_y and returns matrix of 0,0 of that size
